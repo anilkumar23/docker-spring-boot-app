@@ -20,8 +20,8 @@
 		<spring-cloud.version>Finchley.SR1</spring-cloud.version>
 	</properties>
      <modules>
-		<module>eureka-server</module>
-		<module>zuul-service</module>
+<!-- 		<module>eureka-server</module>
+		<module>zuul-service</module> -->
 		<module>account-service</module>
 		<module>bank-service</module>
 		<module>branch-service</module>
