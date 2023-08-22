@@ -32,10 +32,7 @@ services:
       "spring.datasource.username" : "app_user",
       "spring.datasource.password" : "test123",
       "spring.application.name" : "account-service",
-      "server.port": "8089",
-      "eureka.client.service-url.defaultZone": "http://eureka-server:8761/eureka/",
-      "eureka.client.registerWithEureka": "true",
-      "eureka.client.fetchRegistry": "true"
+      "server.port": "8089"
       }'
     restart: on-failure
   bank-service:
@@ -53,10 +50,7 @@ services:
       "spring.datasource.username" : "app_user",
       "spring.datasource.password" : "test123",
       "spring.application.name" : "bank-service",
-      "server.port": "8085",
-      "eureka.client.service-url.defaultZone": "http://eureka-server:8761/eureka/",
-      "eureka.client.registerWithEureka": "true",
-      "eureka.client.fetchRegistry": "true"
+      "server.port": "8085"
       }'
     restart: on-failure
   branch-service:
@@ -74,10 +68,7 @@ services:
       "spring.datasource.username" : "app_user",
       "spring.datasource.password" : "test123",
       "spring.application.name" : "branch-service",
-      "server.port": "8086",
-      "eureka.client.service-url.defaultZone": "http://eureka-server:8761/eureka/",
-      "eureka.client.registerWithEureka": "true",
-      "eureka.client.fetchRegistry": "true"
+      "server.port": "8086"
       }'
     restart: on-failure
   customer-service:
@@ -95,10 +86,7 @@ services:
       "spring.datasource.username" : "app_user",
       "spring.datasource.password" : "test123",
       "spring.application.name" : "customer-service",
-      "server.port": "8087",
-      "eureka.client.service-url.defaultZone": "http://eureka-server:8761/eureka/",
-      "eureka.client.registerWithEureka": "true",
-      "eureka.client.fetchRegistry": "true"
+      "server.port": "8087"
       }'
     restart: on-failure
   transaction-service:
@@ -116,9 +104,6 @@ services:
       "spring.datasource.username" : "app_user",
       "spring.datasource.password" : "test123",
       "spring.application.name" : "transaction-service",
-      "server.port": "8088",
-      "eureka.client.service-url.defaultZone": "http://eureka-server:8761/eureka/",
-      "eureka.client.registerWithEureka": "true",
-      "eureka.client.fetchRegistry": "true"
+      "server.port": "8088"
       }'
     restart: on-failure
